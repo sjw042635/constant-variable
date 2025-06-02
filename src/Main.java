@@ -2,11 +2,12 @@ import org.w3c.dom.ls.LSOutput;
 
 public class Main {
   public static void main(String[] args) {
-    int a = 10 , b = 3;
+    int number = -1;
 
-    System.out.println(a++);
-    System.out.println(a);
-    System.out.println(b--);
-    System.out.println(b);
+    if (number > 0) {
+      System.out.println("number는 0보다 큽니다.");
+    }else {
+      System.out.println("number는 0이거나 0보다 작습니다.");
+    }
   }
 }
